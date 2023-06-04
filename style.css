@@ -1,0 +1,46 @@
+    
+  .indian-flag{
+    /* border: 0.5px solid black; */
+    width :900px;
+    height:600px;
+    position:relative;
+    padding: 0px;
+    margin: 100px;
+  }  
+  /* orange color */
+  .indian-flag>div{
+    border: 0.5px solid #f55d0a;
+    height: 200px;
+    width: 100%;
+    position:absolute;
+    top: 0px;
+    background-color: orange;
+  }
+  /* green color at the bottom */
+  .indian-flag>div>div{
+    border: 0.5px solid green;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 400px;
+    margin: 0px;
+    background-color: #42a911;
+  }
+  /* empty white section  */
+  .indian-flag > div > div> p{
+    border: 0.002px solid rgb(0, 2, 7);
+    height: 135px;
+    width: 135px;
+    margin: 0px;
+    border-radius: 100%;
+    position: relative;
+    left: 382px;;
+    bottom: 170px;
+  }
+  /* chakra image as until this point  I don't know much css */
+  #chakra{
+    position:relative;
+    z-index: 1;
+    top: 232px;
+    left: 385px;
+  }
